@@ -22,11 +22,14 @@ namespace _20
             Console.WriteLine("Please input a number");
             string input = Console.ReadLine();
             int[] arr = StringConvertToIntArray(input);
-            for (int i = 0; i < arr.Length; i++)
-            {
-                Console.WriteLine(arr[i]);
-            }
+            int max = (arr.Max(element => Math.Abs(element)));
+            int min = (arr.Min(element => element));
+            
+            int output = max - min;
+            output = (int)Math.Pow(output,2);
+            Console.WriteLine($"The result is {output}");
             Console.ReadKey();
+
         }
     }
 }
