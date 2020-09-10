@@ -29,3 +29,4 @@ namespace _9
             Console.WriteLine(result);
         }
     }
+}
