@@ -27,7 +27,7 @@ namespace _17
                 a /= 10;
                 //Console.WriteLine(array[i]);
             }
-            int min = 99999;
+            int min = 10;
             for (int i = 0; i < (array.Length); i++)
             {
                 if (array[i] % 2 != 0 && array[i] < min)
