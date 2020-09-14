@@ -23,12 +23,16 @@ namespace using_class
             }
             return result;
         }
-        public int max (int[] input )
+        public int max (int[] input)
         {
             int max = (ToIntArray(field).Max(element => Math.Abs(element)));
             return max;
         }
-
+        public int min(int[] input)
+        {
+            int min=(ToIntArray(field).Min(element => element));
+            return min;
+        }
 
     }
 }
