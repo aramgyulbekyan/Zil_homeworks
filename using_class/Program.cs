@@ -20,7 +20,7 @@ namespace using_class
             {
                 Console.WriteLine(result[i]);
             }
-            int maxvalue = array.max(array.ToIntArray(input));
+            int maxvalue = array.Max(array.ToIntArray(input));
             Console.WriteLine(maxvalue);
             Console.ReadLine();
         }
