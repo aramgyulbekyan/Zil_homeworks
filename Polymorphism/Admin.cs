@@ -11,7 +11,7 @@ namespace Polymorphism
        public string Sallary { get; set; }
        public Admin(string Name, string sallary) : base(Name)
         {
-            Sallary = sallary;
+            this.Sallary=Sallary;
         }
         public  void Planning()
         {
