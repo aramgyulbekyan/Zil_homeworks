@@ -11,7 +11,7 @@ namespace Polymorphism
         public string Name { get; set; }
         public Employee(string name)
         {
-            Name = name;
+            this.Name=Name;
         }
         public virtual void Print()
         {

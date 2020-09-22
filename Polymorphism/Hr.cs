@@ -11,7 +11,7 @@ namespace Polymorphism
         public string Floor { get; set; }
         public Hr (string Name, string floor) : base(Name)
         {
-            Floor = floor;
+           this.Floor = Floor;
         }
         public void HrStuff()
         {

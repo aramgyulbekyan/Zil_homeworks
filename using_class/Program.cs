@@ -23,6 +23,7 @@ namespace using_class
             int maxvalue = array.Max(array.ToIntArray(input));
             Console.WriteLine(maxvalue);
             Console.ReadLine();
+
         }
     }
 }
